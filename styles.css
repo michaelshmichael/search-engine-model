@@ -1,0 +1,134 @@
+#nav {
+    position: absolute;
+    top: 5;
+    height: 30px;
+    font-size: 14px;
+}
+
+.navCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 45px;
+
+}
+
+#gmail, #images, #boxes {
+    margin-right: 15px;
+    padding: 16px 0;
+    font-family: arial, sans-serif;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+#profile {
+    padding-top: 10px;
+}
+
+#prof {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px yellowgreen solid;
+    margin-right: 30px;
+}
+
+#body {
+    padding-top: 250px;
+    margin: 0 auto;
+  }
+
+#image {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#searchBar{
+    width: 600px;
+    margin: auto;
+}
+
+input {
+    margin: auto;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.2px grey solid;
+    outline: none;
+}
+
+form {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+button {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    color: grey;
+    outline: 0;
+}
+
+#languages {
+    font-size: 13px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(240, 240, 240);
+}
+
+.footerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    border-top: 1px rgb(192, 192, 192) solid;
+    padding-left: 40px;
+}
+
+#location {
+    font-family: arial, sans-serif;
+    color: rgb(192, 192, 192);
+}
+
+.footerElements {
+    color: rgb(187, 185, 185);
+    font-family: arial, sans-serif;
+    margin-right: 25px;
+}
+
+.footerFlexLeft, .footerFlexRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerFlexRight {
+    margin-left: 60vw;
+}
